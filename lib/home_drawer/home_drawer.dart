@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class HomeDrawer extends StatelessWidget {
   const HomeDrawer({super.key});
@@ -87,10 +88,7 @@ class HomeDrawer extends StatelessWidget {
           Icon(icon, color: Colors.white),
           Padding(
             padding: const EdgeInsets.only(left: 8.0),
-            child: Text(
-              text,
-              style: const TextStyle(color: Colors.white),
-            ),
+            child: Text(text, style: GoogleFonts.roboto(color: Colors.white)),
           ),
         ],
       ),
